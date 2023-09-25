@@ -1,0 +1,63 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://img.freepik.com/premium-photo/pastel-watercolor-background_664601-652.jpg?w=2000");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.registerTitle {
+  font-size: 50px;
+  color: black;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.registerForm > label {
+  margin: 10px 0;
+  color: black;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+.registerForget {
+  color: lightgray;
+  font-size: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 7px;
+}
