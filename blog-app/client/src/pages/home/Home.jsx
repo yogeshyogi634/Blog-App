@@ -9,7 +9,7 @@ import { useLocation } from "react-router-dom";
 function Home() {
   const [posts, setPosts] = useState([]);
   const { search } = useLocation();
-  // console.log(location);
+  console.log(location);
 
   useEffect(() => {
     const fetchPosts = async () => {
